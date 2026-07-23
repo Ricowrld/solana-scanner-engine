@@ -13,7 +13,6 @@ A TypeScript-based Discord bot that continuously scans the Solana blockchain for
 
 A TypeScript-based Discord bot that continuously scans the Solana blockchain for emerging token opportunities, evaluates them against configurable on-chain and market filters, and delivers real-time alerts to a Discord channel. Includes a full paper trading engine for risk-free strategy backtesting.
 
->>>>>>> ee62131dcff53f9d0d0ceff4643c15f6c0970709
 ---
 
 ## Features
@@ -69,9 +68,7 @@ logger.ts         → Structured logger (pino)
 network.ts        → Shared HTTPS agent configuration
 wallet.ts         → Loads Solana wallet keypair from file
 ```
->>>>>>> ee62131dcff53f9d0d0ceff4643c15f6c0970709
 
----
 
 ## Discovery Pipeline
 
@@ -142,7 +139,6 @@ cd <repo>
 =======
 git clone https://github.com/Ricowrld/solana-scanner-engine.git
 cd solana-scanner-engine
->>>>>>> ee62131dcff53f9d0d0ceff4643c15f6c0970709
 
 # 2. Install dependencies
 npm install
@@ -231,4 +227,5 @@ This project is for educational and research purposes only. Running automated tr
 MIT
 =======
 MIT
->>>>>>> ee62131dcff53f9d0d0ceff4643c15f6c0970709
+
+@ricowrld
