@@ -1,0 +1,20 @@
+{
+  "So11111111111111111111111111111111111111112": {
+    "mint": "So11111111111111111111111111111111111111112",
+    "points": [
+      {
+        "timestamp": 1783020990151,
+        "priceQuote": 80.8736162119898
+      }
+    ]
+  },
+  "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263": {
+    "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+    "points": [
+      {
+        "timestamp": 1783020990151,
+        "priceQuote": 0.000004308905622091737
+      }
+    ]
+  }
+}

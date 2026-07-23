@@ -1,0 +1,196 @@
+{
+  "balanceUsd": 24995.94925823768,
+  "startingBalanceUsd": 25000,
+  "positions": {
+    "D74XHAFZFudTGnSUQ1iy1J3RjYD7DUwrWbMn6VDJZmD3": {
+      "mint": "D74XHAFZFudTGnSUQ1iy1J3RjYD7DUwrWbMn6VDJZmD3",
+      "quantity": 2.870533585,
+      "entryPrice": 0.34836728795841626,
+      "entryValueUsd": 1,
+      "entryTimestamp": 1779486397709,
+      "sources": [
+        "birdeye_trending"
+      ],
+      "lastPrice": 0.34836728795841626,
+      "lastUpdatedAt": 1779486397709,
+      "peakPrice": 0.34836728795841626
+    },
+    "8J69rbLTzWWgUJziFY8jeu5tDwEPBwUz4pKBMr5rpump": {
+      "mint": "8J69rbLTzWWgUJziFY8jeu5tDwEPBwUz4pKBMr5rpump",
+      "quantity": 0.108497557,
+      "entryPrice": 9.216797388350413,
+      "entryValueUsd": 1,
+      "entryTimestamp": 1779486397909,
+      "sources": [
+        "birdeye_trending"
+      ],
+      "lastPrice": 9.216797388350413,
+      "lastUpdatedAt": 1779486397909,
+      "peakPrice": 9.216797388350413
+    },
+    "BLHDYY925ju1g12MrUvk2gQEdxvEDEcttupchutCbDLf": {
+      "mint": "BLHDYY925ju1g12MrUvk2gQEdxvEDEcttupchutCbDLf",
+      "quantity": 706.981046701,
+      "entryPrice": 0.001414465076067202,
+      "entryValueUsd": 1,
+      "entryTimestamp": 1779486398392,
+      "sources": [
+        "birdeye_trending"
+      ],
+      "lastPrice": 0.001414465076067202,
+      "lastUpdatedAt": 1779486398392,
+      "peakPrice": 0.001414465076067202
+    }
+  },
+  "realizedPnlUsd": -1.0507417623191255,
+  "tradeHistory": [
+    {
+      "mint": "So11111111111111111111111111111111111111112",
+      "action": "buy",
+      "quantity": 0.011622876,
+      "price": 86.03722521000826,
+      "valueUsd": 1,
+      "timestamp": 1779321381811,
+      "sources": []
+    },
+    {
+      "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "action": "buy",
+      "quantity": 16.43828021,
+      "price": 0.06083361441859739,
+      "valueUsd": 1,
+      "timestamp": 1779321382054,
+      "sources": []
+    },
+    {
+      "mint": "So11111111111111111111111111111111111111112",
+      "action": "sell",
+      "quantity": 0.011622876,
+      "price": 84.69594283565912,
+      "valueUsd": 0.9844104412819544,
+      "timestamp": 1779482161300,
+      "reason": "max_hold",
+      "sources": [],
+      "pnlUsd": -0.01558955871804557,
+      "pnlPercent": -1.558955871804557,
+      "holdTimeMs": 160779489,
+      "isWinner": false
+    },
+    {
+      "mint": "So11111111111111111111111111111111111111112",
+      "action": "buy",
+      "quantity": 0.011806941,
+      "price": 84.69594283565912,
+      "valueUsd": 1,
+      "timestamp": 1779482161300,
+      "sources": []
+    },
+    {
+      "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "action": "sell",
+      "quantity": 16.43828021,
+      "price": 0.06023006477891693,
+      "valueUsd": 0.9900786819022881,
+      "timestamp": 1779482161524,
+      "reason": "max_hold",
+      "sources": [],
+      "pnlUsd": -0.009921318097711906,
+      "pnlPercent": -0.9921318097711906,
+      "holdTimeMs": 160779470,
+      "isWinner": false
+    },
+    {
+      "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "action": "buy",
+      "quantity": 16.603003893,
+      "price": 0.06023006477891693,
+      "valueUsd": 1,
+      "timestamp": 1779482161524,
+      "sources": []
+    },
+    {
+      "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "action": "sell",
+      "quantity": 16.603003893,
+      "price": 0.000006065233770379803,
+      "valueUsd": 0.00010070109990157094,
+      "timestamp": 1779486045670,
+      "reason": "trailing_stop",
+      "sources": [],
+      "pnlUsd": -0.9998992989000984,
+      "pnlPercent": -99.98992989000985,
+      "holdTimeMs": 3884146,
+      "isWinner": false
+    },
+    {
+      "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "action": "buy",
+      "quantity": 164874.10673,
+      "price": 0.000006065233770379803,
+      "valueUsd": 1,
+      "timestamp": 1779486045670,
+      "sources": []
+    },
+    {
+      "mint": "D74XHAFZFudTGnSUQ1iy1J3RjYD7DUwrWbMn6VDJZmD3",
+      "action": "buy",
+      "quantity": 2.870533585,
+      "price": 0.34836728795841626,
+      "valueUsd": 1,
+      "timestamp": 1779486397709,
+      "sources": [
+        "birdeye_trending"
+      ]
+    },
+    {
+      "mint": "8J69rbLTzWWgUJziFY8jeu5tDwEPBwUz4pKBMr5rpump",
+      "action": "buy",
+      "quantity": 0.108497557,
+      "price": 9.216797388350413,
+      "valueUsd": 1,
+      "timestamp": 1779486397909,
+      "sources": [
+        "birdeye_trending"
+      ]
+    },
+    {
+      "mint": "BLHDYY925ju1g12MrUvk2gQEdxvEDEcttupchutCbDLf",
+      "action": "buy",
+      "quantity": 706.981046701,
+      "price": 0.001414465076067202,
+      "valueUsd": 1,
+      "timestamp": 1779486398392,
+      "sources": [
+        "birdeye_trending"
+      ]
+    },
+    {
+      "mint": "So11111111111111111111111111111111111111112",
+      "action": "sell",
+      "quantity": 0.011806941,
+      "price": 84.78127744528916,
+      "valueUsd": 1.0010075407011598,
+      "timestamp": 1779493329085,
+      "reason": "max_hold",
+      "sources": [],
+      "pnlUsd": 0.0010075407011598259,
+      "pnlPercent": 0.10075407011598259,
+      "holdTimeMs": 11167785,
+      "isWinner": true
+    },
+    {
+      "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "action": "sell",
+      "quantity": 164874.10673,
+      "price": 0.000005905480805970645,
+      "valueUsd": 0.9736608726955706,
+      "timestamp": 1779496952157,
+      "reason": "max_hold",
+      "sources": [],
+      "pnlUsd": -0.026339127304429444,
+      "pnlPercent": -2.6339127304429444,
+      "holdTimeMs": 10906487,
+      "isWinner": false
+    }
+  ]
+}
