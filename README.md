@@ -223,7 +223,7 @@ This project is for educational and research purposes only. Running automated tr
 
 ## License
 
-<<<<<<< HEAD
+HEAD
 MIT
 =======
 MIT
