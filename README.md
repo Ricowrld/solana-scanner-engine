@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Solana Market Intelligence Platform
 
 A TypeScript-based Discord bot that continuously scans the Solana blockchain for emerging token opportunities, evaluates them against configurable on-chain and market filters, and delivers real-time alerts to a Discord channel. Includes a full paper trading engine for risk-free strategy backtesting.
@@ -7,6 +8,12 @@ A TypeScript-based Discord bot that continuously scans the Solana blockchain for
 ![Discord.js](https://img.shields.io/badge/Discord.js-v14-5865F2)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+=======
+# Solana Token Scanner Bot
+
+A TypeScript-based Discord bot that continuously scans the Solana blockchain for emerging token opportunities, evaluates them against configurable on-chain and market filters, and delivers real-time alerts to a Discord channel. Includes a full paper trading engine for risk-free strategy backtesting.
+
+>>>>>>> ee62131dcff53f9d0d0ceff4643c15f6c0970709
 ---
 
 ## Features
@@ -22,6 +29,7 @@ A TypeScript-based Discord bot that continuously scans the Solana blockchain for
 ---
 
 ## Architecture
+<<<<<<< HEAD
 index.ts → Main scan loop: orchestrates discovery, scanning, paper trading, and Discord alerts
 discovery.ts → Fetches and scores discovery candidates from Birdeye and DexScreener
 scanner.ts → Evaluates token candidates using Jupiter price quotes and momentum filters
@@ -41,6 +49,27 @@ wallet.ts → Loads Solana wallet keypair from file
 
 
 text
+=======
+
+```
+index.ts          → Main scan loop: orchestrates discovery, scanning, paper trading, and Discord alerts
+discovery.ts      → Fetches and scores discovery candidates from Birdeye and DexScreener
+scanner.ts        → Evaluates token candidates using Jupiter price quotes and momentum filters
+filters.ts        → Applies price-change threshold rules to scanner results
+paperTrading.ts   → Stateful paper trading engine (entry, exit, PnL tracking, position sizing)
+discord.ts        → Formats and dispatches Discord embeds (alerts, rejections, summaries)
+jupiter.ts        → Fetches Jupiter quotes; handles rate limiting, failure caching, and retries
+jupiterTokens.ts  → Loads and caches the Jupiter token list; resolves watchlist mints
+trade.ts          → Executes real on-chain swaps via Jupiter v6 + Solana web3.js
+config.ts         → Centralised configuration loaded from environment variables
+types.ts          → Shared TypeScript interfaces for all modules
+storage.ts        → JSON-based persistence for alert cache, paper trading state, and trend history
+trends.ts         → Tracks historical price quote points per token for momentum calculation
+logger.ts         → Structured logger (pino)
+network.ts        → Shared HTTPS agent configuration
+wallet.ts         → Loads Solana wallet keypair from file
+```
+>>>>>>> ee62131dcff53f9d0d0ceff4643c15f6c0970709
 
 ---
 
@@ -107,8 +136,13 @@ The paper trading engine simulates portfolio behaviour without executing real tr
 
 ```bash
 # 1. Clone the repository
+<<<<<<< HEAD
 git clone <repo-url>
 cd <repo>
+=======
+git clone https://github.com/Ricowrld/solana-scanner-engine.git
+cd solana-scanner-engine
+>>>>>>> ee62131dcff53f9d0d0ceff4643c15f6c0970709
 
 # 2. Install dependencies
 npm install
@@ -193,4 +227,8 @@ This project is for educational and research purposes only. Running automated tr
 
 ## License
 
+<<<<<<< HEAD
 MIT
+=======
+MIT
+>>>>>>> ee62131dcff53f9d0d0ceff4643c15f6c0970709
