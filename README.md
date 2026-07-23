@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Solana Market Intelligence Platform
 
 A TypeScript-based Discord bot that continuously scans the Solana blockchain for emerging token opportunities, evaluates them against configurable on-chain and market filters, and delivers real-time alerts to a Discord channel. Includes a full paper trading engine for risk-free strategy backtesting.
@@ -28,7 +28,7 @@ A TypeScript-based Discord bot that continuously scans the Solana blockchain for
 ---
 
 ## Architecture
-<<<<<<< HEAD
+
 index.ts → Main scan loop: orchestrates discovery, scanning, paper trading, and Discord alerts
 discovery.ts → Fetches and scores discovery candidates from Birdeye and DexScreener
 scanner.ts → Evaluates token candidates using Jupiter price quotes and momentum filters
